@@ -3,14 +3,22 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '5 0 * * *'
+    
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      # Updated to v4 to clear the Node.js warning
-      - uses: actions/checkout@v4 
+    
+    # FIX 1: Grants the bot permission to push the JSON file
+    permissions:
+      contents: write  
       
-      # Added step to install dependencies
+    # FIX 2: Forces the runner to use the new Node.js 24 engine
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
+      
+    steps:
+      - uses: actions/checkout@v4
+      
       - name: Install Dependencies
         run: pip install requests beautifulsoup4
         
@@ -21,5 +29,6 @@ jobs:
         run: |
           git config --global user.name 'Bot'
           git config --global user.email 'bot@example.com'
-          git commit -am "Update Horoscope" || echo "No changes to commit"
+          git add horoscope.json
+          git commit -m "Update Horoscope" || echo "No changes to commit"
           git push
