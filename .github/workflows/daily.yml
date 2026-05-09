@@ -1,8 +1,10 @@
 name: Daily Horoscope Update
 on:
+  workflow_dispatch:  # <--- THIS IS THE MAGIC LINE
   schedule:
-    - cron: '5 0 * * *' # Runs at 00:05 every day
+    - cron: '5 0 * * *'
 jobs:
+# ... the rest of the file stays exactly the same
   build:
     runs-on: ubuntu-latest
     steps:
