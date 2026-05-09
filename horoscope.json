@@ -1,1 +1,14 @@
-{"date": "2026-05-09", "aries": "আজকের দিনটি...", "taurus": "আপনার আর্থিক দিক..."}
+{
+    "aries": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-aries-horoscope-ajker-mesh-rashifal-in-bengali-09-may-2026",
+    "taurus": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-taurus-horoscope-ajker-brisha-rashifal-in-bengali-09-may-2026",
+    "gemini": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-gemini-horoscope-ajker-mithun-rashifal-in-bengali-09-may-2026",
+    "cancer": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-cancer-horoscope-ajker-karkat-rashifal-in-bengali-09-may-2026",
+    "leo": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-leo-horoscope-ajker-singha-rashifal-in-bengali-09-may-2026",
+    "virgo": "Error: Could not find the text content on the page.",
+    "libra": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-libra-horoscope-ajker-tula-rashifal-in-bengali-09-may-2026",
+    "scorpio": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-scorpio-horoscope-ajker-brischik-rashifal-in-bengali-09-may-2026",
+    "sagittarius": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-sagittarius-horoscope-ajker-dhanu-rashifal-in-bengali-09-may-2026",
+    "capricorn": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-capricorn-horoscope-ajker-makar-rashifal-in-bengali-09-may-2026",
+    "aquarius": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-aquarius-horoscope-ajker-kumbha-rashifal-in-bengali-09-may-2026",
+    "pisces": "Error: 403 Client Error: Forbidden for url: https://www.anandabazar.com/horoscope/todays-pisces-horoscope-ajker-meen-rashifal-in-bengali-09-may-2026"
+}
